@@ -1,0 +1,23 @@
+header {
+  color: yellow;
+}
+footer {
+  background-color: lightgrey;
+  height: 200px;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 20px 0px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+textarea{
+  height: 250px;
+  background-color: lightgrey;
+  padding: 5px 5px;
+}
+button:active{
+  background-color: lightgreen;
+  border-radius: 5px;
+}
